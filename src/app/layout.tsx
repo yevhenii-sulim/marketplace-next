@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Jost, Nunito_Sans } from "next/font/google";
+import { Nunito_Sans } from "next/font/google";
 import "./globals.css";
 
-const jost = Jost({ subsets: ["latin"] });
+// const jost = Jost({ subsets: ["latin"] });
 const nunito = Nunito_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
