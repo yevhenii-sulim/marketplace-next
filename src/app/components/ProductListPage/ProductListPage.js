@@ -33,7 +33,7 @@
 //             date,
 //             discount,
 //             eco,
-//             category,
+//             category,ппеш 
 //             subCategory,
 //           }) => (
 //             <SimilarProduct

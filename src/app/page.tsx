@@ -3,6 +3,7 @@
 // "use client";
 import { useEffect } from "react"
 import Header from "./components/header/header"
+import Footer from "./components/footer/footer"
 
 // import BestChoiceList from "./components/BestChoice/BestChoiceList";
 // import CategoryList from "./components/CategoryList/CategoryList";
@@ -48,6 +49,7 @@ export default function Home({ children }: { children: React.ReactNode }) {
             <body>
                 <Header />
                 {children}
+                <Footer />
             </body>
         </html>
     )

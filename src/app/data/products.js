@@ -1,22 +1,28 @@
-const data = new Intl.DateTimeFormat("uk-UA", {
-  year: "numeric",
-  month: "long",
-  day: "numeric",
-}).format(Date.now());
 
-export const products = [
+
+const formatDate = (timestamp) => {
+  return new Intl.DateTimeFormat("uk-UA", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  }).format(timestamp);
+};
+
+const currentTimestamp = Date.now();
+
+const products = [
   {
     id: "1",
     img: "#",
-    tytle: "назва прдукту",
+    title: "Product 1",
     price: "700$",
     discountItem: "500$",
     date: data,
     discount: true,
     eco: true,
     visit: 20,
-    producer: "anyBody",
-    subCategory: "vacuum",
+    producer: "Anybody",
+    subCategory: "Vacuum",
     category: "headphone",
   },
   {
