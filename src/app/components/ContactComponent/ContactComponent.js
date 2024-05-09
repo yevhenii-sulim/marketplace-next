@@ -9,9 +9,7 @@ export default function ContactComponent({ nameDev, spec, link }) {
       <h4>{nameDev}</h4>
       <p>{spec}</p>
       <Link href={link} passHref>
-    {/* <a target="_blank" rel="noopener noreferrer"> Open link in a new tab */}
-          {/* <LinkedInIcon sx={{ color: '#0076B2' }} /> */}
-        {/* </a> */}
+          <LinkedInIcon sx={{ color: '#0076B2' }} />
        </Link>
     </Contact>
   );

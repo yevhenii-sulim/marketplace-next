@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 
 export const FooterContainer = styled.footer`
+  font-family: 'Jost';
   position: absolute;
   background: #9DE1A4;
   bottom: 0;
