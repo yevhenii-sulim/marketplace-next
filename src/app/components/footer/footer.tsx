@@ -2,7 +2,7 @@
 "use client"
 
 import Logo from '../header/Logo/Logo';
-// import { team } from '../../data/team';
+import { team } from '../../data/team';
 import {
   About,
   AboutContent,
@@ -11,6 +11,7 @@ import {
   Container,
   FooterContainer,
 } from './Footer.styled';
+import ContactComponent from '../ContactComponent/ContactComponent'
 import { Hug } from './Footer.styled'; 
 // import ContactComponent from 'components/ContactComponent/ContactComponent';
 
@@ -29,13 +30,13 @@ function Footer() {
             </p>
           </AboutContent>
           <Hug>
-      © Розробка "Team Challenge" 2024. Усі права захищені.
+       © Розробка "Team Challenge" 2024. Усі права захищені.
         </Hug>  
         </About>
        
         <Contacts>
           <h3>Наші контакти</h3>
-          {/* <ContactList>
+          <ContactList>
             {team.map(({ id, name, spec, link }) => {
               return (
                 <ContactComponent
@@ -46,7 +47,7 @@ function Footer() {
                 />
               );
             })}
-          </ContactList> */}
+          </ContactList>
         </Contacts>
       </Container>
     </FooterContainer>
